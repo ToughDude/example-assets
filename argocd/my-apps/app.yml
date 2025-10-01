@@ -8,7 +8,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: argocd/argocd-apps
-    repoURL: 'https://gitlab.com/ayush-sharma/example-assets.git'
+    repoURL: 'https://github.com/ToughDude/example-assets.git'
     targetRevision: HEAD
   project: default
   syncPolicy:
